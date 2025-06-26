@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load model dan scaler
-model = joblib.load("maternal_model.pkl")
-scaler = joblib.load("maternal_scaler.pkl")
+model = joblib.load("maternal-health-app/maternal_model.pkl")
+scaler = joblib.load("maternal-health-app/maternal_scaler.pkl")
 
 st.set_page_config(page_title="Prediksi Risiko Kesehatan Ibu", layout="centered")
 st.title("🩺 Prediksi Risiko Kesehatan Ibu (Maternal Health Risk)")
